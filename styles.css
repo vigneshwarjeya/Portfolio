@@ -1054,9 +1054,12 @@ body.light-theme{
     height: 400px;
   }
 
-  .home__img{
-    width: 220px;
-  }
+  .home__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or 'contain' depending on how you want it to scale */
+}
+
 
   .home__social-link{
     padding: .4rem;
